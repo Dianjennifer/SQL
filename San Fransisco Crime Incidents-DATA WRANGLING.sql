@@ -1,7 +1,6 @@
 SELECT * FROM tutorial.sf_crime_incidents_2014_01;
 
----------Cleaning Date and Time
-
+-------Cleaning Date and Time
 SELECT incidnt_num,
        date,
        LEFT(date, 10) AS cleaned_date,
